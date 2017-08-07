@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <title>Autentificaction</title>
+
+</head>
+
+<body>
+    <section id="validacion" class="container">
+        <div class="row center">
+            <div class="col s4">
+                <p id="username"></p>
+                <a class="waves-effect waves-light colorboton-azul fb-login"><img class="left" src="assets/img/facebook%20(2).png" / alt="facebook"><span>Login with Facebook</span></a>
+                <a class="waves-effect waves-light colorboton-azul-claro twitter-login">Login with Twitter<img  class="left"src="assets/img/twitter%20(4).png" / alt="twitter"><span></span></a>
+                <a class="waves-effect waves-light colorboton-naranja google-login"><img class="left" src="assets/img/google-plus-social-logotype.png" / alt="google"><span>Login with Google</span></a>
+            </div>
+            <div class="col s4">
+               <div class="row"></div>
+                <div class="linea"></div>
+                <div class="circulo center">
+                    <p class="ab">OR</p>
+                </div>
+                    <div class="linea"></div>
+            </div>
+            <div class="col s4 center">
+                <p class="espacio-arriba"><strong>Sing Up manually</strong></p>
+                <div class="row">
+                    <div class="input-field col s6">
+                        <input id="email" type="email" class="validate color-input">
+                        <label for="email">Username or Email</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s6">
+                        <input id="password" type="password" class="validate color-input">
+                        <label for="password">Password</label>
+                    </div>
+                </div>
+                <p>
+                    <input type="checkbox" id="check" />
+                    <label for="check1">Remember me</label><a class="waves-effect waves-light btn rojo">login</a></p>
+                <div class=" col s12">
+                    <span class="letra-roja">Register Now</span><span class="divider"></span><label class="espacio-label">Forgot Password?</label>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <sript src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></sript>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+
+</html>

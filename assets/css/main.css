@@ -1,0 +1,77 @@
+#validacion .colorboton-azul{
+    background-color: #3b5998;
+    width:400px;
+    margin-bottom: 50px;
+    margin-top: 100px;
+    color:white;
+    padding:10px;
+    font-size:20px;
+    border-radius:15px;
+}
+
+#validacion .colorboton-azul-claro{
+    background-color: #2f84ea;
+    width:400px;
+    margin-bottom: 50px;
+    color:white;
+    padding:10px;
+    font-size:20px;
+    border-radius:15px;
+}
+
+#validacion .colorboton-naranja{
+    background-color: #ea5038;
+    width:400px;
+    margin-bottom: 50px;
+    color:white;
+    padding:10px;
+    font-size:20px;
+    border-radius:15px;
+}
+.espacio-arriba{
+    margin-top: 50px;
+}
+#validacion .color-input{
+    background-color: #e9ebee;
+    border-radius: 15px;
+    width:400px;
+}
+.circulo{
+    width:80px;
+    height: auto;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: thin;
+    border-color: grey;
+    margin-left: 150px;
+    position: relative;
+}
+.ab{
+    margin-top: 800px!;
+}
+.linea{
+    width: 1px;
+    height: 200px;
+    border-left: 5px;
+    border-style: solid;
+    border-width: thin;
+    border-color: grey;
+    margin-left: 190px;
+}
+.rojo{
+    background-color: red!important;
+    margin-left: 50px;
+    border-radius: 15px;
+}
+.divider{
+    border-left-style: solid;
+    color: grey;
+}
+.letra-roja{
+    color:red;
+    font-weight:10px;
+    margin-right: 15px;
+}
+.espacio-label{
+    margin-left: 10px;
+}
